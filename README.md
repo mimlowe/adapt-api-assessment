@@ -1,6 +1,6 @@
 # TypeScript Carrier Scraper
 
-A highly extensible and scalable web scraping solution for [Adapt API's](https://adaptinsurance.com/) take-home project.
+A highly extensible and scalable web scraping solution.
 
 ![Diagram](diagram.jpg "Diagram")
 
