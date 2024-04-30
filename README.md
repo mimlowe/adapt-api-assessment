@@ -46,43 +46,36 @@ In the case of this program, the `page` field is used for `Placeholder Carrier`,
 
 The `CarrierPageLoader` class is capable of recursively crawling and storing multiple pages to be parsed by `CarrierPageParser`.
 ```typescript
-interface ICarrierTemplate {
-    baseUrl: string,
-    carrierUrl: string,
-    isPaginated: boolean,
-    page?: ITemplateElement,
-    agent: {
-        root: ITemplateElement,
-        dataFields: {
-            name: ITemplateElement,
-            producerCode: ITemplateElement,
-            agencyName: ITemplateElement,
-            agencyCode: ITemplateElement
-        }
-    },
-    customer: {
-        root: ITemplateElement,
-        dataFields: {
-            name: ITemplateElement,
-            id: ITemplateElement,
-            email: ITemplateElement,
-            address: ITemplateElement
-        }
-    },
-    policies: {
-        root: ITemplateElement,
-        item: ITemplateElement,
-        dataFields: {
-            id: ITemplateElement,
-            premium: ITemplateElement,
-            status: ITemplateElement,
-            effectiveDate: ITemplateElement,
-            terminationDate: ITemplateElement,
-            lastPaymentDate: ITemplateElement,
-            commissionRate?: ITemplateElement,
-            numberInsured?: ITemplateElement
-        }
-    }
+export interface ICarrierTemplate {
+  // Base url for the carrier's website
+  baseUrl: string;
+  // An array of schema keys that are enabled for the current carrier
+  schemaKeys: CarrierTemplateSchemaKey[];
+  // Schema for the agent section of the carrier's website
+  agent: ICarrierTemplateSchema;
+  // Schema for the customer section of the carrier's website
+  customer: ICarrierTemplateSchema;
+  // Schema for the list of policies section of the carrier's website
+  policies: ICarrierTemplateSchema;
+}
+
+export interface ICarrierTemplateSchema {
+  // The url for the section of the carrier's website
+  url: string;
+  // Indicates if the section is paginated
+  isPaginated: boolean;
+  // The pagination element
+  page?: ITemplateElement;
+  // The section's root element
+  root: ITemplateElement;
+  // For list data, the section's data item element
+  item?: ITemplateElement;
+  // Wrapper for schema's formatter factory
+  formatter: Function;
+  // The schema's data fields
+  dataFields: {
+    [key: string]: ITemplateElement;
+  };
 }
 ```
 
@@ -120,11 +113,12 @@ Collection of data fields parsed from html body and organized by data category.
 
 `IParsedPage` is returned by `CarrierPageParser.getData()`. 
 ```typescript
-interface IParsedPage {
-    agent: IParsedField[],
-    customer: IParsedField[],
-    policies: IParsedField[][]
+export interface IParsedPage {
+  agent: IParsedField[];
+  customer: IParsedField[];
+  policies: IParsedField[][];
 }
+
 ```
 
 ## CarrierDataFormatter
@@ -140,23 +134,15 @@ The `format()` method outputs the data as `IApiOutput[]`
 ### IApiOutput
 
 ```typescript
-interface IApiOutput {
-    carrier: Carriers,
-    agent: IAgent,
-    customer: ICustomer,
-    policies: IPolicy[],
-    page: number
+export interface IApiOutput {
+  data: IAgent | ICustomer | IPolicy[];
+  page: number;
+}
+
+export interface IApiPageOutput {
+  carrier: Carriers;
+  agent?: IApiOutput[];
+  customer?: IApiOutput[];
+  policies?: IApiOutput[];
 }
 ```
-
-# Output
-
-The project specifications state to output the data as a JSON array with 2 items, 1 for each page.
-
-
-You'll find that the array output by the program will contain 4 items. 
-This takes into consideration the 3 pages of data on the `Placeholder Carrier` page.
-
-After running the `yarn start` command, the final JSON array will be printed to the console and saved in `./out/<today's date>.json`.
-
-I've included a sample output file: `Fri Apr 12 2024.json`.
