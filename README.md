@@ -1,13 +1,8 @@
 # TypeScript Carrier Scraper
 
+A highly extensible and scalable web scraping solution for [Adapt API's](https://adaptinsurance.com/) take-home project.
+
 ![Diagram](diagram.jpg "Diagram")
-## How to use
-[Download Node](https://nodejs.org/en/) if you don't already have it on your machine.
-
-### Scripts
-Navigate to the project root directory and run `yarn install` to install the required dependencies.
-
-`yarn start`: compiles `index.ts` and runs it.
 
 # CarrierTemplate
 Each Carrier has a Carrier Template which is used to define the behavior of our scraper when loading and parsing its pages.
