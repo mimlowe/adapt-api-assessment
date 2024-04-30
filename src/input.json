@@ -1,0 +1,12 @@
+{
+  "input": [
+    {
+      "carrier": "MOCK_INDEMNITY",
+      "customerId": "a0dfjw9a"
+    },
+    {
+      "carrier": "PLACEHOLDER_CARRIER",
+      "customerId": "f02dkl4e"
+    }
+  ]
+}

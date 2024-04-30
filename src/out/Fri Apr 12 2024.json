@@ -1,0 +1,272 @@
+[
+  {
+    "carrier": "MOCK_INDEMNITY",
+    "page": 1,
+    "agent": {
+      "agencyCode": "BQUI1ONR",
+      "agencyName": "Kemmer - Berge",
+      "name": "Abel Konopelski",
+      "producerCode": "IMELPT0V"
+    },
+    "customer": {
+      "name": "Teresa Goodwin V",
+      "id": "a0dfjw9a",
+      "email": "Tabitha_Barton27@hotmail.com",
+      "address": "8280 McCullough Lake"
+    },
+    "policies": [
+      {
+        "id": "pbvzh6046i",
+        "premium": 450,
+        "status": "claim_rejected",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2021-10-25T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "xt9d2t2cpy",
+        "premium": 9027,
+        "status": "active",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2022-06-07T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "f4p0f5wfqy",
+        "premium": 9287,
+        "status": "pending_cancelation",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-05-30T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "8z09phyy10",
+        "premium": 6502,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-04-08T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "vbngv4xubx",
+        "premium": 5010,
+        "status": "pending_cancelation",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2022-01-22T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "ml7u10et8w",
+        "premium": 3336,
+        "status": "active",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-01-09T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "w5310n0ad9",
+        "premium": 8674,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-08-22T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "4byhletk18",
+        "premium": 3451,
+        "status": "claim_rejected",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-05-17T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "bt0bnkyj0u",
+        "premium": 8022,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2022-07-27T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "s41eb75w2q",
+        "premium": 6466,
+        "status": "pending_cancelation",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2021-12-05T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z"
+      },
+      {
+        "id": "q1s6b7eq5w",
+        "premium": 5130,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2021-10-04T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-09T07:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "carrier": "PLACEHOLDER_CARRIER",
+    "page": 1,
+    "agent": {
+      "agencyCode": "H62E9ALA",
+      "agencyName": "Beier, Quitzon and Kirlin",
+      "name": "Darin Haag",
+      "producerCode": "VUZ4OBWU"
+    },
+    "customer": {
+      "name": "Sherri Ritchie",
+      "id": "f02dkl4e",
+      "email": "Gayle63@yahoo.com",
+      "address": "61734 Edgardo Brooks"
+    },
+    "policies": [
+      {
+        "id": "tzmgis4dk3",
+        "premium": 5757,
+        "status": "pending_cancelation",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-01-18T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "18%",
+        "numberInsured": 2
+      },
+      {
+        "id": "j310ut4g14",
+        "premium": 9887,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-04-27T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "1%",
+        "numberInsured": 5
+      },
+      {
+        "id": "s0243utqc9",
+        "premium": 5339,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-07-07T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "3%",
+        "numberInsured": 4
+      },
+      {
+        "id": "fanbk4an5k",
+        "premium": 7457,
+        "status": "active",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2021-11-20T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "13%",
+        "numberInsured": 1
+      },
+      {
+        "id": "6vzdbmyptv",
+        "premium": 295,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2022-03-09T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "15%",
+        "numberInsured": 2
+      }
+    ]
+  },
+  {
+    "carrier": "PLACEHOLDER_CARRIER",
+    "page": 2,
+    "agent": {
+      "agencyCode": "H62E9ALA",
+      "agencyName": "Beier, Quitzon and Kirlin",
+      "name": "Darin Haag",
+      "producerCode": "VUZ4OBWU"
+    },
+    "customer": {
+      "name": "Sherri Ritchie",
+      "id": "f02dkl4e",
+      "email": "Gayle63@yahoo.com",
+      "address": "61734 Edgardo Brooks"
+    },
+    "policies": [
+      {
+        "id": "yg1rv0s70s",
+        "premium": 1572,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-09T07:00:00.000Z",
+        "terminationDate": "2021-12-10T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "8%",
+        "numberInsured": 5
+      },
+      {
+        "id": "9vkwjijmvt",
+        "premium": 3969,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-03-08T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "10%",
+        "numberInsured": 3
+      },
+      {
+        "id": "wpk6r2j1yk",
+        "premium": 6002,
+        "status": "pending_cancelation",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-06-18T07:00:00.000Z",
+        "lastPaymentDate": "2021-09-09T07:00:00.000Z",
+        "commissionRate": "14%",
+        "numberInsured": 1
+      },
+      {
+        "id": "rzk89nxr50",
+        "premium": 463,
+        "status": "endorsement_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2021-12-22T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "18%",
+        "numberInsured": 2
+      },
+      {
+        "id": "h2mf6vi2q9",
+        "premium": 2244,
+        "status": "claim_pending",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-01-24T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "3%",
+        "numberInsured": 2
+      }
+    ]
+  },
+  {
+    "carrier": "PLACEHOLDER_CARRIER",
+    "page": 3,
+    "agent": {
+      "agencyCode": "H62E9ALA",
+      "agencyName": "Beier, Quitzon and Kirlin",
+      "name": "Darin Haag",
+      "producerCode": "VUZ4OBWU"
+    },
+    "customer": {
+      "name": "Sherri Ritchie",
+      "id": "f02dkl4e",
+      "email": "Gayle63@yahoo.com",
+      "address": "61734 Edgardo Brooks"
+    },
+    "policies": [
+      {
+        "id": "iqgho6bp5s",
+        "premium": 2386,
+        "status": "active",
+        "effectiveDate": "2021-09-10T07:00:00.000Z",
+        "terminationDate": "2022-01-28T08:00:00.000Z",
+        "lastPaymentDate": "2021-09-10T07:00:00.000Z",
+        "commissionRate": "15%",
+        "numberInsured": 5
+      }
+    ]
+  }
+]
