@@ -1,5 +1,5 @@
 # TypeScript Carrier Scraper
-Take home assessment submission for ![Adapt API](https://adaptinsurance.com/)
+Take home assessment submission for [Adapt API](https://adaptinsurance.com/)
 
 A highly extensible and scalable web scraping solution.
 
